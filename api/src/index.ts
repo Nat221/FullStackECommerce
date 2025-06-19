@@ -1,7 +1,7 @@
 import "dotenv/config";
 import express, { json, urlencoded } from "express";
-import productsRoutes from "./routes/products";
-import authRoutes from "./routes/auth";
+import productsRoutes from "./routes/products/index.js";
+import authRoutes from "./routes/auth/index.js";
 
 const port = 3000;
 const app = express();
