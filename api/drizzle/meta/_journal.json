@@ -22,6 +22,13 @@
       "when": 1750081759403,
       "tag": "0002_brief_wolf_cub",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1750243416999,
+      "tag": "0003_fat_salo",
+      "breakpoints": true
     }
   ]
 }
