@@ -29,6 +29,13 @@
       "when": 1750243416999,
       "tag": "0003_fat_salo",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1750354732898,
+      "tag": "0004_next_shooting_star",
+      "breakpoints": true
     }
   ]
 }
