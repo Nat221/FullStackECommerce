@@ -7,7 +7,10 @@ import Link from "next/link";
 
 export default function ProductListItem({ product }) {
   return (
-    <Link href={`/product/${product.id}`} className="flex flex-1 min-w-[300px]">
+    <Link
+      href={`/dashboard/products/${product.id}`}
+      className="flex flex-1 min-w-[300px]"
+    >
       <Card className="p-5 rounded-lg  flex-1">
         <Image
           source={{
