@@ -5,6 +5,7 @@ const nextConfig = {
     "nativewind",
     "react-native-css-interop",
     "@gluestack-ui/image",
+    "@gluestack-ui/form-control",
   ],
 };
 
