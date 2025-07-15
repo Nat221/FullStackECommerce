@@ -28,10 +28,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      ><StyledJsxRegistry><GluestackUIProvider mode="light">
-            {children}
-          </GluestackUIProvider></StyledJsxRegistry></body>
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background-0`}
+      >
+        <StyledJsxRegistry>
+          <GluestackUIProvider mode="light">{children}</GluestackUIProvider>
+        </StyledJsxRegistry>
+      </body>
     </html>
   );
 }

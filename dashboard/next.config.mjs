@@ -6,6 +6,7 @@ const nextConfig = {
     "react-native-css-interop",
     "@gluestack-ui/image",
     "@gluestack-ui/form-control",
+    "@gluestack-ui/avatar",
   ],
 };
 
