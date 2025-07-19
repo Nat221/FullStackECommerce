@@ -7,6 +7,7 @@ const nextConfig = {
     "@gluestack-ui/image",
     "@gluestack-ui/form-control",
     "@gluestack-ui/avatar",
+    "@gluestack-ui/actionsheet",
   ],
 };
 
