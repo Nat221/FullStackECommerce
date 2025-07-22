@@ -24,14 +24,21 @@ export default async function OrderPage({
         </Box>
       </Box>
       <Heading className="mt-5 text-gray-500">Items</Heading>
-      {order?.items.map((orderItem) => (
-        <HStack key={orderItem?.id} className="p-4  gap-4">
-          <Text>{orderItem?.productId}</Text>
-          <Text>
-            {orderItem?.quantity} x €{orderItem?.price}
-          </Text>
-        </HStack>
-      ))}
+      {order?.items.map(
+        (orderItem: {
+          id: number;
+          productId: number;
+          quantity: number;
+          price: number;
+        }) => (
+          <HStack key={orderItem?.id} className="p-4  gap-4">
+            <Text>{orderItem?.productId}</Text>
+            <Text>
+              {orderItem?.quantity} x €{orderItem?.price}
+            </Text>
+          </HStack>
+        )
+      )}
     </Card>
   );
 }

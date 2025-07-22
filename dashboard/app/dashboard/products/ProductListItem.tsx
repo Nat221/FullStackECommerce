@@ -5,7 +5,7 @@ import { Text } from "@/components/ui/text";
 
 import Link from "next/link";
 
-export default function ProductListItem({ product }) {
+export default function ProductListItem({ product }: { product: any }) {
   return (
     <Link
       href={`/dashboard/products/${product.id}`}

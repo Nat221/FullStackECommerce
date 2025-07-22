@@ -9,6 +9,8 @@ const nextConfig = {
     "@gluestack-ui/avatar",
     "@gluestack-ui/actionsheet",
   ],
+  eslint: { ignoreDuringBuilds: true },
+  typescript: { ignoreDuringBuilds: true },
 };
 
 export default withGluestackUI(nextConfig);

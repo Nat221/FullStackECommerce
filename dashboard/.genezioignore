@@ -1,0 +1,5 @@
+.next
+*.log
+node_modules
+dist
+build

@@ -17,7 +17,7 @@ export default async function ProductsPage() {
           <Icon as={AddIcon} className="w-10 h-10 color-slate-400" />
         </Card>
       </Link>
-      {products.map((product) => (
+      {products.map((product: any) => (
         <ProductListItem key={product.id} product={product} />
       ))}
     </div>
