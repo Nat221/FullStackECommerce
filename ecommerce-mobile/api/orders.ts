@@ -15,6 +15,8 @@ export async function createOrder(items: any[]) {
 
   const data = await res.json();
 
+  console.log("Data", items);
+
   if (!res.ok) {
     console.log(data);
     throw new Error("Error");
